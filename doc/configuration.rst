@@ -158,6 +158,12 @@ Currently available are:
   <https://github.com/labgrid-project/labgrid/blob/master/labgrid/driver/power/simplerest.py>`__
   for details.
 
+``eg_pms2_network``
+  Controls the EG_PMS2_LAN & EG_PMS2_WLAN devices, through simple HTTP POST and
+  GET requests.  The device requires a password for logging into the control
+  interface, this module deliberately uses the standard password '1' and is
+  not compatible with a different password.
+
 Used by:
   - `NetworkPowerDriver`_
 
